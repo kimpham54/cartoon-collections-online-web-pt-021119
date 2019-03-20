@@ -35,27 +35,4 @@ def find_the_cheese(array)
   # array.detect{|item| cheese_types.include?(item)}
   
   cheese if array.include?(cheese)
-  
-#   cheese_types.each do |cheese|
-#     if array.include?(cheese) == true
-#       return cheese
-#     else
-#       return nil
-#     end
-#   end
-# end
-
-# array.include?(cheese)
-
-# array.detect{|item| item == cheese}
-  # cheese_types.each do |cheese|
-    # return array.detect{|i| array.include?(cheese)}
-#   end
-# end
-
-# # ["banana", "cheddar", "sock"].detect{|i| i.include?("cheddar")}
-# # ["potato", "gouda", "camembert"].detect{|i| i.include?("gouda")}
-
-# # contains_cheddar = ["banana", "cheddar", "sock"]
-# # contains_gouda = ["potato", "gouda", "camembert"]
-# # no_cheese = ["ham", "cellphone", "computer"]
+ 

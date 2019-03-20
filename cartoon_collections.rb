@@ -35,4 +35,13 @@ def find_the_cheese(array)
   # array.detect{|item| cheese_types.include?(item)}
   cheese_types.detect{|item| array.include?(item)}
 end
+
+#   cheese_types.each do |cheese|
+#     if array.include?(cheese) == true
+#       return cheese
+#     else
+#       return nil
+#     end
+#   end
+# end
  
